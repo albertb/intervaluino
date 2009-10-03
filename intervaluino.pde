@@ -28,7 +28,7 @@ void setup() {
 void loop() {
   // Trigger the focus.
   digitalWrite(focus_pin, HIGH);
-  delay(focus_wait);
+  delay(focus_on);
   digitalWrite(focus_pin, LOW);
 
   // Wait for lens to focus.
